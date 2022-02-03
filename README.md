@@ -16,3 +16,33 @@ Azure machine learning studio is used to create, train and evaluate the machine 
 ![Score Model](https://user-images.githubusercontent.com/89576066/152301300-5077bd3d-a5bf-4162-88d1-5c1ecea94033.PNG)
 # SALARY PREDICTOR EVALUATED MODEL
 ![Evaluate Model](https://user-images.githubusercontent.com/89576066/152301424-e20b0ff2-276a-4507-bb8f-6c56df6c4d1c.PNG)
+# DETAILED DESCRIPTION
+Create Project/Experiment and import  Adult census income binary data set from saved dataset samples. After creating experiment, we need to drag and drop the required modules in canvas.
+
+I have used the below modules for my experiment in the given order:
+      
+      
+      Dataset:
+              Dataset required for experiment is added.
+               
+      Selects columns in Dataset:
+              Selects columns to include or exclude from a dataset in an operation. Formerly known as Project Columns.
+               
+      Split Data:
+              Split the rows of a dataset into two distinct sets.
+               
+      Two Class Boosted Decision:
+              Creates a binary classifier using a boosted decision tree algorithm.
+         
+      Train Model:
+              Train a previously created classification or regression model.
+               
+      Score Model:
+              Score a trained classification or regression model.
+               
+      Evaluate Model:
+              Evaluates a scored classification or regression model with standard metrics.
+              
+              
+After creating, run the model by clicking run button in the bottom side. After running successfully, we can score and evaluate the model and deploy the model by Setting up Web Service in ML Studio. For first time select Update Predictive Experiment. after deployment of model, it can be used in webs.               
+               
